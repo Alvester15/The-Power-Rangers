@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TigerNote</title>
+    <link
+      rel="shortcut icon"
+      href="images/TigerNoteLogo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+    <style>
+
+      *
+      {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .menu-bar {
+        background-color: rgb(29, 69, 228);
+        text-align:center;
+      }
+
+      .menu-bar ul {
+        display: inline-flex;
+        list-style: none;
+        color: white;
+      }
+
+      .menu-bar ul li {
+        width: 120px;
+        margin: 5px;
+        padding: 5px;
+      }
+
+      .menu-bar ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .active, .menu-bar ul li:hover {
+        background-color: rgba(141, 160, 237, 0.386);
+        border-radius: 8px;
+      }
+
+      .menu-bar .fa {
+        margin-right: 8px;
+      }
+
+      .sub-menu-1 {
+        display: none;
+      }
+      .menu-bar ul li:hover .sub-menu-1 {
+        display: block;
+        position: absolute;
+        background-color: rgb(29, 69, 228);
+        margin-top: 5px;
+        margin-left: -15px;
+      }
+
+      .menu-bar ul li:hover .sub-menu-1 ul {
+        display: block;
+        margin: 10px;
+      }
+
+      img {
+        max-width: 18%;
+        max-height: 23%;
+        float: inline-end;
+        margin-right: 10px;
+        position: relative;
+      }
+      .headtext {
+        font-weight: bolder;
+        font-size: 26pt;
+      }
+      .subtext {
+        font-size: 20pt;
+      }
+      .button {
+        padding: 1px 2px;
+        font-size: 15pt;
+        margin-top: -3.7%;
+        margin-right: 10%;
+        position: relative;
+        float: right;
+      }
+      .profilePic {
+        width: 5%;
+        border-radius: 50%;
+        float: right;
+        margin-right: 1%;
+      }
+      .UserInfo {
+        float: right;
+        margin-right: 3%;
+        margin-top: 2%;
+        font-size: 16pt;
+        color: white;
+        font-weight: bolder;
+      }
+      .logouttext {
+        float: right;
+        margin-right: 3%;
+        margin-top: 2%;
+        font-size: 16pt;
+      }
+    </style>
+  </head>
+  <body style="background-color: #bababa">
+
+    <div class="menu-bar"> 
+      <ul>
+        <li class="active"> <a href="#"><i class="fa fa-bars"></i>Menu </a>
+          <div class="sub-menu-1">
+            <ul>
+              <li><a href="TigerNoteMain.html"> Home </a></li>
+              <li><a href="noteTaking.html"> Notes </a></li>
+              <li><a href="calenderPage.html">Calendar</a></li>
+            </ul>
+          </div> 
+        </li>
+      </ul>
+    </div>
+
+    <a href="TigerNoteMain.html" target="">
+      <img src="images/TigerNoteText.png" alt="To  main page"
+    /></a>
+    <img class="profilePic" src="images/tiger.png" alt="default profilePic" />
+    <p class="logouttext">
+      <a href="tigerNoteLogIn.html">Log Out</a>
+    </p>
+    <p class="headtext">Textbooks</p>
+    <p class="subtext">Import PDF documents by clicking the icon.</p>
+    <button class="button button1">Import PDF</button>
+  </body>
+</html>
