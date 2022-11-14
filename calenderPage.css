@@ -36,8 +36,9 @@ body {
     color: #FF4400;;
   }
   #weekdays div {
-    width: 100px;
+    width: 100pt;
     padding: 10px;
+    height: -100px;
   }
   #calendar {
     width: 100%;
