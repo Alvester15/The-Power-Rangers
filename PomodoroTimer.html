@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="icon" href="https://i.postimg.cc/h4zGvdTP/tiger-Head-transformed.png">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>TigerNote - PomodoroTimer</title>
+
+      
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+        <link href="bootstrap.min.css" rel="stylesheet">
+        <link href="bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="slick.css"/>
+
+        <link href="homepage.css" rel="stylesheet">
+        
+
+    </head>
+    
+    <body>
+
+        <section class="preloader">
+            <div class="spinner">
+                <span class="sk-inner-circle"></span>
+            </div>
+        </section>
+    
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="index.html">
+                        <strong><span>Tiger</span>Note</strong>
+                    </a>
+
+                    <div class="d-lg-none">
+                        <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                        
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="PomodoroTimer.html">Pomodoro Timer</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="noteTaking.html">Document</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="calenderPage.html">Calendar</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="note.html">Note</a>
+                            </li>
+                        </ul>
+
+                        <div class="d-none d-lg-block">
+                            <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <link rel="stylesheet" href="pomodoroTimer.css">
+                <title>Pomodoro Timer</title>
+            </head>
+            <body>
+                <h1>Pomodoro Timer</h1>
+                <div id="container">
+                    <p id="work" class="label">Work:</p><p id="break" class="label">Break:</p><p id="cycles" class="label">Cycles:</p>
+                    
+                    <div id="work-timer" class="timer">
+                        <p id="w_minutes">25</p><p class="semicolon">:</p><p id="w_seconds">00</p>
+                    </div>
+            
+                    
+                    <p id="counter" class="timer">0</p>
+            
+                    
+                    <div id="break-timer" class="timer">
+                        <p id="b_minutes">05</p><p class="semicolon">:</p><p id="b_seconds">00</p>
+                    </div>
+                    <button id="start" class="btn">Start</button>
+                    <button id="stop" class="btn">Pause</button>
+                    <button id="reset" class="btn">Reset</button>
+                </div>
+                <script src="pomodoroTimer.js"></script>
+            </body>
+            </html>
+
+    
+
+
+
+
+
+
+
+
+
+         
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="jquery.min.js"></script>
+        <script src="bootstrap.bundle.min.js"></script>
+        <script src="Headroom.js"></script>
+        <script src="jQuery.headroom.js"></script>
+        <script src="slick.min.js"></script>
+        <script src="custom.js"></script>
+
+    </body>
+</html>

@@ -1,4 +1,4 @@
-/**DO NOT TOUCH THIS. Work in progresws on exporting text as PDF file. - Sut */
+
 
 const boldBtn = document.querySelector("#bold-btn")
 const underlineBtn = document.querySelector("#underline-btn")
